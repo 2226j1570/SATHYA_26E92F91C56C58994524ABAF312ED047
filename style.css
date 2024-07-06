@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+   font-family: 'poppins', sans-serif;
+}
+
+.one{
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+   align-items: center;
+    justify-content: center;
+    display: flex;}
+.two{
+    background: #013a5d;
+    padding: 30px;
+    border-radius:30px ;
+}
+.two form input{
+    border: 0;
+    outline: 0;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    box-shadow:  -8px -8px 15px rgba(163, 104, 104, 0.1),5px 5px 15px rgba(189, 42, 42, 0.2);
+    font-size: 20px;
+    
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin:20px 0 ;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.three{
+    width: 145px;
+}
+form input.four{
+    color: #05f3c7;
+}
